@@ -7,4 +7,4 @@ this was especially tricky. I solved the problem by triggering a function on cli
 
 ### ENTER THE MATRIX WHEN GUESSED CORRECTLY
 
-```onClick="Main();"```
+```onClick="Main();"
