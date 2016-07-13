@@ -1,0 +1,26 @@
+p {
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+html {
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+body {
+  background: #000;
+}
+div {
+/*	display: block;*/
+	position: absolute;
+	margin-top: 0px;
+/*	background-color: black;*/
+	z-index: 2;
+	box-shadow: 2px, 2px, black;
+	width: 500px;
+	text-align: center;
+}
