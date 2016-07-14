@@ -8,10 +8,9 @@ this was especially tricky. I solved the problem by triggering a function on cli
 <<<<<<< HEAD
 ##The commented out code in javascript is a matrix code that I was toying with to play when correct.
 
-```onClick="Main();"
-
-=======
 ### ENTER THE MATRIX WHEN GUESSED CORRECTLY
 
-```onClick="Main();"
->>>>>>> 9afc73fed04e358d4ec840e5efc5801489bbc77e
+
+```onClick="Main();"```
+
+
