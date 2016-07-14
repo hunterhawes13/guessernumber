@@ -5,6 +5,7 @@ Objective: Write a game that prompts the user to guess a randomly chosen number 
 
 this was especially tricky. I solved the problem by triggering a function on click in the HTML.
 
-```onClick="Main();"```
-
 ##The commented out code in javascript is a matrix code that I was toying with to play when correct.
+
+```onClick="Main();"
+

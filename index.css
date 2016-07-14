@@ -14,13 +14,138 @@ html {
 body {
   background: #000;
 }
+
+canvas {
+z-index: -1;
+position: fixed;
+top: 0px;
+left: 0px;
+
+}
+
 div {
-/*	display: block;*/
-	position: absolute;
-	margin-top: 0px;
-/*	background-color: black;*/
-	z-index: 2;
-	box-shadow: 2px, 2px, black;
+	display: inline-block;
 	width: 500px;
-	text-align: center;
+}
+body, html{
+  margin:15px;
+  padding:10px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+body{
+
+  margin:30px;
+  padding:0px;
+
+}
+
+#input{
+	outline: none;
+	background-color: black;
+	     width: 200px;
+     height:200px;
+     padding: 30px;
+     color: white;
+     font-size: 175px;
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", serif;
+     border-left: none;
+     border-top: none;
+     border-right: none;
+     text-align: center;
+
+}
+
+input {
+    background-color:#FFFFFF;
+    width:160px;
+}
+
+
+/* Place Holder CSS */
+::-webkit-input-placeholder {.9
+  color: hotpink;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:-moz-placeholder {
+  color: hotpink;
+  opacity: 0.5;
+  -moz-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+::-moz-placeholder {
+  color: hotpink;
+  opacity: 0.5;
+  -moz-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:-ms-input-placeholder {  
+  color: hotpink;
+  opacity: 0.5;
+  -ms-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:hover::-webkit-input-placeholder {
+  opacity: 0.75;
+  -webkit-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:hover:-moz-placeholder {
+  opacity: 0.75;
+  -moz-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:hover::-moz-placeholder {
+  opacity: 0.75;
+  -moz-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:hover:-ms-input-placeholder {  
+  opacity: 0.75;
+  -ms-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+:focus:-ms-input-placeholder {  
+  opacity: 0;
+  -ms-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+
+#playerButton {
+  display: inline-block;
+  margin: 10px 10px 0 0px;
+  padding: 15px 15px;
+  font-size: 20px;
+  font-family: helvetica;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+#playerButton:focus {
+  outline: none
+  opacity: .5;
 }
