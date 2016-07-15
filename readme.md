@@ -10,3 +10,7 @@ this was especially tricky. I solved the problem by triggering a function on cli
 ![Alt text](http://i.imgur.com/m61bO6e.png "Screen Shot")
 
 
+
+[View live working source code here at codepen.io](http://codepen.io/hunterhawes13/full/rLYXvd/ "Guess a number GAME")
+
+
