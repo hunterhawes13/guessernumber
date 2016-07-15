@@ -7,8 +7,6 @@ this was especially tricky. I solved the problem by triggering a function on cli
 
 
 ### ENTER THE MATRIX WHEN GUESSED CORRECTLY
-
-
-```onClick="Main();"```
+![Alt text](http://i.imgur.com/m61bO6e.png "Screen Shot")
 
 
